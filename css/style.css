@@ -74,3 +74,36 @@ p {
     line-height: 21px;
     color: #0F4C92;
 }
+
+/* SECTION BOOKING */
+.booking {
+    background-color: #B5E4FF;
+    padding: 97px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.booking-container {
+    max-width: 785px;
+    margin: 0 auto;
+    background-color: #2B477C;
+    border-radius: 19px;
+    padding: 60px 60px 30px 60px;
+}
+
+.booking-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #F4F4F4;
+    margin-bottom: 40px;
+}
+
+.booking-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #F4F4F4;
+    margin-bottom: 30px;
+}
+
+.booking-btn {}

@@ -142,6 +142,7 @@ header p {
 }
 
 .booking-container {
+    box-sizing: border-box;
     max-width: 785px;
     margin: 0 auto;
     background-color: #2B477C;
@@ -164,6 +165,26 @@ header p {
     margin-bottom: 30px;
 }
 
+
+/* SECTION MAP */
+
+.map-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #0F4C92;
+    margin-bottom: 70px;
+}
+.map-wrapper {
+    height: 355px;
+    overflow: hidden;    
+  }
+  
+  .map-wrapper iframe {
+    width: 100%;
+    height: 110%;    
+  }
 /* FORM */
 
 
@@ -246,23 +267,24 @@ form h2 {
     color: #FFFFFF;
 }
 
-.footer-logo{
+.footer-logo {
     display: block;
     margin: 0 auto;
 }
 
-.footer-text{
+.footer-text {
     font-size: 20px;
-line-height: 23px;
+    line-height: 23px;
     margin-bottom: 90px;
 }
-address{
+
+address {
     margin: 0 auto;
 }
 
-address a{
+address a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
-line-height: 23px;
+    line-height: 23px;
 }

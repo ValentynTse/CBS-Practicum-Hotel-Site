@@ -1,16 +1,15 @@
-const btns = document.querySelectorAll(".btn");
+const btns = document.querySelector(".booking-btn");
 const overlay = document.querySelector(".overlay");
 const form = document.querySelector('.callback-form');
 const body = document.querySelector("body");
 const advButton = document.querySelectorAll('.advantages-button');
 console.log(advButton);
 
-btns.forEach(function(btn){
-    btn.addEventListener('click', function(){
+btns.addEventListener('click', function(){
         overlay.style.display = 'flex';
         body.style.overflow = 'hidden';
     });
-})
+
 
 advButton.forEach(function(btn){
     btn.addEventListener('click', function(){
